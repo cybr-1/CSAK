@@ -1,4 +1,4 @@
-# SecOps Toolkit
+# Cyber Swiss Army Knife (CSAK)
 
 ## Overview
 SecOps Toolkit is a command-line security operations (SecOps) utility designed for cybersecurity engineers and security architects. It provides a centralized interface for running various security scripts, automating common security tasks, and enhancing cloud security posture management. The toolkit is built with Python and aims to simplify security operations by providing essential functionalities in one place.
