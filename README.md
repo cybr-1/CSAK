@@ -17,7 +17,7 @@ SecOps Toolkit is a command-line security operations (SecOps) utility designed f
 - Extensible framework for adding custom security scripts
 
 ## Requirements
-- Python 3.8+
+- Python 3.12+
 - Pip package manager
 - Required dependencies (installed automatically)
 - API keys or authentication tokens for cloud integrations (if needed)
@@ -25,8 +25,8 @@ SecOps Toolkit is a command-line security operations (SecOps) utility designed f
 ## Installation
 ```sh
 # Clone the repository
-git clone https://github.com/yourusername/secops-toolkit.git
-cd secops-toolkit
+git clone https://github.com/cybr-1/CSAK.git
+cd CSAK
 
 # Create a virtual environment (optional but recommended)
 python -m venv venv
@@ -36,7 +36,7 @@ source venv/bin/activate  # On Windows use: venv\Scripts\activate
 pip install -r requirements.txt
 
 # Run the toolkit
-python secops.py
+python console.py
 ```
 
 ## Uninstalltion
@@ -45,12 +45,12 @@ python secops.py
 # Navigate to the project directory and deactivate the virtual environment (if used)
 deactivate  # Only if virtual environment was used
 
-# Remove the project folder
-cd ..
-rm -rf secops-toolkit
-
 # Uninstall dependencies (optional)
 pip uninstall -r requirements.txt -y
+
+# Remove the project folder
+cd ..
+rm -rf CSAK
 ```
 
 ---
