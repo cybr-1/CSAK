@@ -1,0 +1,6 @@
+cmd2==2.5.11
+colorama==0.4.6
+numpy==2.2.2
+pandas==2.2.3
+requests==2.32.3
+
