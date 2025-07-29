@@ -53,15 +53,3 @@ cd ..
 rm -rf CSAK
 ```
 
----
-
-## Roadmap
-
-### Short-Term Goals
-- Implement a modular plugin system for custom scripts
-- Improve logging and error handling
-- Add support for more cloud security tools (AWS, Azure, GCP)
-
-### Long-Term Goals
-- Develop a web-based interface for remote execution
-- Integrate AI-powered modules to enchance UX
