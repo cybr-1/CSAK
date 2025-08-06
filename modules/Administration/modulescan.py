@@ -62,7 +62,7 @@ def write_requirements(imports, output_file):
 def main():
     parser = argparse.ArgumentParser(description="Scan Python files for imported modules and generate a requirements.txt file.")
     parser.add_argument("--directory",type=str,default=None,help="Directory to scan modules in python files.", required=True)
-    parser.add_argument("--output",type=str,default="requirements.txt",help="Output file name (default: ./requirements.txt).")
+    parser.add_argument("--output",type=str,default=requirements.txt ,help="Output file name (default: ./requirements.txt).")
 
     args = parser.parse_args()
 
